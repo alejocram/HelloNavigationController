@@ -24,10 +24,8 @@ class GreenViewController: UIViewController {
     }
     
     @objc func didTapButton() {
-        let purpleViewController = UIViewController()
-        purpleViewController.title = "Purple View"
-        purpleViewController.view.backgroundColor = .systemPurple
-        navigationController?.show(purpleViewController, sender: self)
+        let viewController = PurpleViewController()
+        self.navigationController?.show(viewController, sender: self)
     }
 
     /*

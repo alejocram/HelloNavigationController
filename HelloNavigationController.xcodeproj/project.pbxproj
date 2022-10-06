@@ -15,6 +15,8 @@
 		59E6530528EDEE31004AA727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E6530328EDEE31004AA727 /* LaunchScreen.storyboard */; };
 		59E6530D28EDF464004AA727 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6530C28EDF464004AA727 /* BlueViewController.swift */; };
 		59E6530F28EE5779004AA727 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6530E28EE5779004AA727 /* GreenViewController.swift */; };
+		59E6531128EF31A5004AA727 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6531028EF31A5004AA727 /* GrayViewController.swift */; };
+		59E6531328EF3266004AA727 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6531228EF3266004AA727 /* PurpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		59E6530628EDEE31004AA727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E6530C28EDF464004AA727 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		59E6530E28EE5779004AA727 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		59E6531028EF31A5004AA727 /* GrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
+		59E6531228EF3266004AA727 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				59E6530C28EDF464004AA727 /* BlueViewController.swift */,
 				59E652FE28EDEE30004AA727 /* Main.storyboard */,
 				59E6530E28EE5779004AA727 /* GreenViewController.swift */,
+				59E6531228EF3266004AA727 /* PurpleViewController.swift */,
+				59E6531028EF31A5004AA727 /* GrayViewController.swift */,
 				59E6530128EDEE31004AA727 /* Assets.xcassets */,
 				59E6530328EDEE31004AA727 /* LaunchScreen.storyboard */,
 				59E6530628EDEE31004AA727 /* Info.plist */,
@@ -146,7 +152,9 @@
 			files = (
 				59E652FD28EDEE30004AA727 /* YellowViewController.swift in Sources */,
 				59E652F928EDEE30004AA727 /* AppDelegate.swift in Sources */,
+				59E6531328EF3266004AA727 /* PurpleViewController.swift in Sources */,
 				59E6530D28EDF464004AA727 /* BlueViewController.swift in Sources */,
+				59E6531128EF31A5004AA727 /* GrayViewController.swift in Sources */,
 				59E652FB28EDEE30004AA727 /* SceneDelegate.swift in Sources */,
 				59E6530F28EE5779004AA727 /* GreenViewController.swift in Sources */,
 			);
