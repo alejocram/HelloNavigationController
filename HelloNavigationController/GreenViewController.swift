@@ -19,9 +19,16 @@ class GreenViewController: UIViewController {
         button.backgroundColor = .systemBlue
         button.tintColor = .white
         button.center = view.center
+        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         self.view.addSubview(button)
     }
     
+    @objc func didTapButton() {
+        let purpleViewController = UIViewController()
+        purpleViewController.title = "Purple View"
+        purpleViewController.view.backgroundColor = .systemPurple
+        navigationController?.show(purpleViewController, sender: self)
+    }
 
     /*
     // MARK: - Navigation
