@@ -13,6 +13,13 @@ class GreenViewController: UIViewController {
         super.viewDidLoad()
         title = "Green View"
         view.backgroundColor = .systemGreen
+        
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+        button.setTitle("Go to Purple View ", for: .normal)
+        button.backgroundColor = .systemBlue
+        button.tintColor = .white
+        button.center = view.center
+        self.view.addSubview(button)
     }
     
 
