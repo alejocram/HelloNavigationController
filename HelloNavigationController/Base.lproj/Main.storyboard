@@ -54,13 +54,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="PUZ-Vf-wRQ"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.74354272959183676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Blue View" id="48J-mw-LLQ"/>
+                    <navigationItem key="navigationItem" title="Blue View" id="48J-mw-LLQ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="5zv-CD-6Rp"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="Ew4-Mg-DQx">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="wIb-Yk-oS6" kind="show" id="a1h-qE-whn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5C-XL-XiH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1680" y="4"/>
+        </scene>
+        <!--Red View-->
+        <scene sceneID="Cke-hM-v4f">
+            <objects>
+                <viewController id="wIb-Yk-oS6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fuN-CE-fUK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gtK-3W-eJZ"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Red View" id="HBm-Ew-OKy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TO3-O9-Ei0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2411" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xC4-hV-a50">
@@ -89,8 +113,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
