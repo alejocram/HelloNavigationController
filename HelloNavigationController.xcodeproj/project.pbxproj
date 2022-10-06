@@ -14,6 +14,7 @@
 		59E6530228EDEE31004AA727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E6530128EDEE31004AA727 /* Assets.xcassets */; };
 		59E6530528EDEE31004AA727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E6530328EDEE31004AA727 /* LaunchScreen.storyboard */; };
 		59E6530D28EDF464004AA727 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6530C28EDF464004AA727 /* BlueViewController.swift */; };
+		59E6530F28EE5779004AA727 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6530E28EE5779004AA727 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		59E6530428EDEE31004AA727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E6530628EDEE31004AA727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E6530C28EDF464004AA727 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		59E6530E28EE5779004AA727 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				59E652FC28EDEE30004AA727 /* YellowViewController.swift */,
 				59E6530C28EDF464004AA727 /* BlueViewController.swift */,
 				59E652FE28EDEE30004AA727 /* Main.storyboard */,
+				59E6530E28EE5779004AA727 /* GreenViewController.swift */,
 				59E6530128EDEE31004AA727 /* Assets.xcassets */,
 				59E6530328EDEE31004AA727 /* LaunchScreen.storyboard */,
 				59E6530628EDEE31004AA727 /* Info.plist */,
@@ -145,6 +148,7 @@
 				59E652F928EDEE30004AA727 /* AppDelegate.swift in Sources */,
 				59E6530D28EDF464004AA727 /* BlueViewController.swift in Sources */,
 				59E652FB28EDEE30004AA727 /* SceneDelegate.swift in Sources */,
+				59E6530F28EE5779004AA727 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,11 +30,27 @@
                                     <segue destination="sX1-F9-Mn6" kind="show" id="DIp-oo-EsW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNA-6p-E3w">
+                                <rect key="frame" x="96.666666666666686" y="501" width="200" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2ur-LT-MR6"/>
+                                    <constraint firstAttribute="height" constant="50" id="R31-hi-rSE"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go to Programatly"/>
+                                <connections>
+                                    <segue destination="wLZ-Av-bPM" kind="show" id="agV-e6-so6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="eNA-6p-E3w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I7O-m8-sYO"/>
                             <constraint firstItem="Wn3-x6-6GG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dS9-Oe-1JS"/>
+                            <constraint firstItem="eNA-6p-E3w" firstAttribute="centerY" secondItem="Wn3-x6-6GG" secondAttribute="centerY" constant="100" id="gi5-5y-KKA"/>
                             <constraint firstItem="Wn3-x6-6GG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iBI-2k-dgf"/>
                         </constraints>
                     </view>
@@ -69,6 +85,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5C-XL-XiH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1680" y="4"/>
+        </scene>
+        <!--Green View Controller-->
+        <scene sceneID="7Gh-zu-Oxw">
+            <objects>
+                <viewController id="wLZ-Av-bPM" customClass="GreenViewController" customModule="HelloNavigationController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ef5-Nu-SV4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2vB-6i-eqx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="npJ-Q3-jLs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Esp-Ew-vb6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1679" y="734"/>
         </scene>
         <!--Red View-->
         <scene sceneID="Cke-hM-v4f">
@@ -114,6 +146,9 @@
     </scenes>
     <resources>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
